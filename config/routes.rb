@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :accessories
+  resources :studios
+  resources :lightboards
   resources :users
   root 'welcome#index'
   

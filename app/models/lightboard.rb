@@ -1,0 +1,2 @@
+class Lightboard < ApplicationRecord
+end
