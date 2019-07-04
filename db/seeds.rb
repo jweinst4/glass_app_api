@@ -1,41 +1,41 @@
-# User.create([
+User.create([
 
-#     { name: 'ABC', email: 'A'},
-#     { name: 'DEF', email: 'B' },
-#     { name: 'GHI', email: 'C'},
-#     { name: 'JKL', email: 'D' },
+    { name: 'ABC', email: 'A'},
+    { name: 'DEF', email: 'B' },
+    { name: 'GHI', email: 'C'},
+    { name: 'JKL', email: 'D' },
 
-# ])
-# Lightboard.create([
-# {name: 'S33A Table Top Lightboard System', image: 'https://i.imgur.com/mxr79bm.jpg', code: 'SS3A', description: 'Our 33îcompact table-top lightboard can be set up on any horizontal surface in a matter of minutes. Its light-weight, all-in-one design is easily transported for off-site presentations or recording.  Markers and cleaning kit included. Specs: 31? x 19? x 1.5? (79cm x 48cm x 4cm), 10lbs (4.5kg)', price: 10}, 
-# {name: 'S66 Standalone Lightboard System', image: 'https://i.imgur.com/E1sSnOH.jpg', code: 'S66', description: 'The classic 66î lightboard with built-in external lighting comes ready to mount on an easy-to-assemble, top quality electric adjustable height table with casters. Markers and cleaning kit are included.', price: 10}, 
-# {name: 'S66A Lightboard System', image: 'https://i.imgur.com/qRHXBRd.jpg', code: 'S66A', description: 'Want to use your own table? No problem! The 66î Learning Glass lightboard will attach to any table without the need to drill through the top. Markers and cleaning kit included. Specs: 60? x 31? x 1.5? (152cm x 79cm x 4cm), 50lbs (23kg)', price: 10}, 
-# ])
+])
+Lightboard.create([
+{name: 'S33A Table Top Lightboard System', image: 'https://i.imgur.com/mxr79bm.jpg', code: 'SS3A', description: 'Our 33îcompact table-top lightboard can be set up on any horizontal surface in a matter of minutes. Its light-weight, all-in-one design is easily transported for off-site presentations or recording.  Markers and cleaning kit included. Specs: 31? x 19? x 1.5? (79cm x 48cm x 4cm), 10lbs (4.5kg)', price: 10}, 
+{name: 'S66 Standalone Lightboard System', image: 'https://i.imgur.com/E1sSnOH.jpg', code: 'S66', description: 'The classic 66î lightboard with built-in external lighting comes ready to mount on an easy-to-assemble, top quality electric adjustable height table with casters. Markers and cleaning kit are included.', price: 10}, 
+{name: 'S66A Lightboard System', image: 'https://i.imgur.com/qRHXBRd.jpg', code: 'S66A', description: 'Want to use your own table? No problem! The 66î Learning Glass lightboard will attach to any table without the need to drill through the top. Markers and cleaning kit included. Specs: 60? x 31? x 1.5? (152cm x 79cm x 4cm), 50lbs (23kg)', price: 10}, 
+])
 
-# Studio.create([
-# {name: 'S33 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/R1tli5z.jpg', code: 'S33', description: '-', price: 15}, 
-# {name: 'S66 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/SEWJNMe.jpg', code: 'S66', description: '-', price: 15}, 
-# ])
+Studio.create([
+{name: 'S33 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/R1tli5z.jpg', code: 'S33', description: '-', price: 15}, 
+{name: 'S66 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/SEWJNMe.jpg', code: 'S66', description: '-', price: 15}, 
+])
 
-# Accessory.create([
-# {name: 'BlackMagic Mini-Recorder', image: 'https://i.imgur.com/8qqjAAd.jpg', code: 'MINI', description: 'Connects video camera with computer in real time through Thunderbolt and HDMI connections.', price: 20}, 
-# {name: 'Decimator', image: 'https://i.imgur.com/u1snHqR.jpg', code: 'DEC', description: 'Features a built-in scaler to flip your image horizontally. Also allows frame rate conversion and HDMI/SDI cross conversion. Includes; Universal Power Supply, HDMI Cable, USB Cable', price: 20}, 
-# {name: 'Dracast', image: 'https://i.imgur.com/kNCm2Qv.jpg', code: 'DRA', description: 'Fully dimmable 3200-5600K variable light temperatures.  AC or DC operation  Includes barndoors, carry case and 100-240 VAC Power Adapter.', price: 20}, 
-# {name: 'Markers', image: 'https://i.imgur.com/DLZnino.jpg', code: 'MARK', description: 'Our favorite premium neon dry erase markers.  Vivid neon ink consistently delivers bright and bold colors.', price: 20}, 
-# ])
+Accessory.create([
+{name: 'BlackMagic Mini-Recorder', image: 'https://i.imgur.com/8qqjAAd.jpg', code: 'MINI', description: 'Connects video camera with computer in real time through Thunderbolt and HDMI connections.', price: 20}, 
+{name: 'Decimator', image: 'https://i.imgur.com/u1snHqR.jpg', code: 'DEC', description: 'Features a built-in scaler to flip your image horizontally. Also allows frame rate conversion and HDMI/SDI cross conversion. Includes; Universal Power Supply, HDMI Cable, USB Cable', price: 20}, 
+{name: 'Dracast', image: 'https://i.imgur.com/kNCm2Qv.jpg', code: 'DRA', description: 'Fully dimmable 3200-5600K variable light temperatures.  AC or DC operation  Includes barndoors, carry case and 100-240 VAC Power Adapter.', price: 20}, 
+{name: 'Markers', image: 'https://i.imgur.com/DLZnino.jpg', code: 'MARK', description: 'Our favorite premium neon dry erase markers.  Vivid neon ink consistently delivers bright and bold colors.', price: 20}, 
+])
 
-# Overview.create([
-# {item: 'Lightboard grew out of a pilot project in 2014 at San Diego State University to study the effectiveness of lightboard video in online and face-to-face instruction.  It was discovered that students performed better, retained more information, and preferred the Learning Glass instruction over other instructional video formats and conventional classroom whiteboard and overhead projection instruction.'}, 
-# {item: '  In response to inquiries from around the globe, Lightboard began manufacturing units and serves clients in education, technology and multimedia production from Lebanon to Missouri. Our commitment to quality and service is unrivaled. The Lightboard team, led by Michael Cartwright, continues to lead the way in innovating new designs and lightboard technology. Our experience and expertise in optics, engineering, video production, instructional design, teaching and distance learning provide you with all the support you need to create exceptional instructional videos and presentations.'}, 
-# ])
+Overview.create([
+{item: 'Lightboard grew out of a pilot project in 2014 at San Diego State University to study the effectiveness of lightboard video in online and face-to-face instruction.  It was discovered that students performed better, retained more information, and preferred the Learning Glass instruction over other instructional video formats and conventional classroom whiteboard and overhead projection instruction.'}, 
+{item: '  In response to inquiries from around the globe, Lightboard began manufacturing units and serves clients in education, technology and multimedia production from Lebanon to Missouri. Our commitment to quality and service is unrivaled. The Lightboard team, led by Michael Cartwright, continues to lead the way in innovating new designs and lightboard technology. Our experience and expertise in optics, engineering, video production, instructional design, teaching and distance learning provide you with all the support you need to create exceptional instructional videos and presentations.'}, 
+])
 
-# Management.create([
-# {item: 'Michael Cartwright is a cofounder of Cartwright Learning Glass Solution and serves as the CEO and President for the company. Michael Cartwright has over 15 years experience in physics research and education. As an independent researcher for the last 15 years, he has led a highly productive research group. He has also taught a multitude of course offerings, and is consistently one of the top-rated researchers.'}, 
-# ])
+Management.create([
+{item: 'Michael Cartwright is a cofounder of Cartwright Learning Glass Solution and serves as the CEO and President for the company. Michael Cartwright has over 15 years experience in physics research and education. As an independent researcher for the last 15 years, he has led a highly productive research group. He has also taught a multitude of course offerings, and is consistently one of the top-rated researchers.'}, 
+])
 
-# News.create([
-# {item: '-'}, 
-# ])
+News.create([
+{item: '-'}, 
+])
 
 Faq.create([
 {question: 'Q. How do I clean the glass?', answer: 'A. For normal erasing, use the terrycloth towels. You will notice that the pens tend to leave some residue. These should be unnoticeable to the camera and it should never become necessary to interrupt video recording to clean the glass. When in doubt, check the footage.  After a week or two of continuous use, it is good practice to deep clean the glass with a foaming glass cleaner (must be foaming) and a squeegee. Spray the foam across the entire glass, and let it sit for 30 seconds. Starting from the top corner, use the squeegee to wipe horizontally, then move lower to the next patch. Wipe the squeegee with a towel after each pass. Wipe off any residual cleaner on the glass with a clean towel, as you would clean any window. Repeat this process as necessary.'},
