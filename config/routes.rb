@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :faqs
+  resources :news
+  resources :managements
+  resources :overviews
   resources :accessories
   resources :studios
   resources :lightboards
