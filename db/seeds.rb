@@ -1,3 +1,25 @@
+
+Lightboard.create([
+    {name: 'S33A Table Top Lightboard System', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Lightboards/S33A_Table_Top_Lightboard_System.jpg', code: 'SS3A', description: 'Our 33îcompact table-top lightboard can be set up on any horizontal surface in a matter of minutes. Its light-weight, all-in-one design is easily transported for off-site presentations or recording.  Markers and cleaning kit included. Specs: 31? x 19? x 1.5? (79cm x 48cm x 4cm), 10lbs (4.5kg)', price: 10, category: 'lightboard'}, 
+    {name: 'S66 Standalone Lightboard System', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Lightboards/S66_Standalone_Lightboard_System.jpg', code: 'S66', description: 'The classic 66î lightboard with built-in external lighting comes ready to mount on an easy-to-assemble, top quality electric adjustable height table with casters. Markers and cleaning kit are included.', price: 10, category: 'lightboard'}, 
+    {name: 'S66A Lightboard System', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Lightboards/S66A_Lightboard_System.jpg', code: 'S66A', description: 'Want to use your own table? No problem! The 66î Learning Glass lightboard will attach to any table without the need to drill through the top. Markers and cleaning kit included. Specs: 60? x 31? x 1.5? (152cm x 79cm x 4cm), 50lbs (23kg)', price: 10, category: 'lightboard'}, 
+])
+
+Studio.create([
+{name: 'S33 Standalone Lightboard Studio Package', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Studios/S33_Table_Top_Lightboard_Studio_Package.jpg', code: 'S33', description: '-', price: 15, category: 'studio'}, 
+{name: 'S66 Standalone Lightboard Studio Package', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Studios/S66_Standalone_Lightboard_Studio_Package.jpg', code: 'S66', description: '-', price: 15, category: 'studio'}, 
+])
+
+Accessory.create([
+{name: 'BlackMagic Mini-Recorder', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Accessories/Mini-recoders.jpg', code: 'MINI', description: 'Connects video camera with computer in real time through Thunderbolt and HDMI connections.', price: 20, category: 'accessory'}, 
+{name: 'Decimator', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Accessories/Decimator.jpg', code: 'DEC', description: 'Features a built-in scaler to flip your image horizontally. Also allows frame rate conversion and HDMI/SDI cross conversion. Includes; Universal Power Supply, HDMI Cable, USB Cable', price: 20, category: 'accessory'}, 
+{name: 'Dracast', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Accessories/Dracast.jpg', code: 'DRA', description: 'Fully dimmable 3200-5600K variable light temperatures.  AC or DC operation  Includes barndoors, carry case and 100-240 VAC Power Adapter.', price: 20, category: 'accessory'}, 
+{name: 'Markers', image: 'https://jweinst4.s3.amazonaws.com/GlassApp/Images/Accessories/Markers.jpg', code: 'MARK', description: 'Our favorite premium neon dry erase markers.  Vivid neon ink consistently delivers bright and bold colors.', price: 20, category: 'accessory'}, 
+])
+
+
+
+
 User.create([
 
     { name: 'ABC', email: 'A'},
@@ -5,23 +27,6 @@ User.create([
     { name: 'GHI', email: 'C'},
     { name: 'JKL', email: 'D' },
 
-])
-Lightboard.create([
-{name: 'S33A Table Top Lightboard System', image: 'https://i.imgur.com/mxr79bm.jpg', code: 'SS3A', description: 'Our 33îcompact table-top lightboard can be set up on any horizontal surface in a matter of minutes. Its light-weight, all-in-one design is easily transported for off-site presentations or recording.  Markers and cleaning kit included. Specs: 31? x 19? x 1.5? (79cm x 48cm x 4cm), 10lbs (4.5kg)', price: 10}, 
-{name: 'S66 Standalone Lightboard System', image: 'https://i.imgur.com/E1sSnOH.jpg', code: 'S66', description: 'The classic 66î lightboard with built-in external lighting comes ready to mount on an easy-to-assemble, top quality electric adjustable height table with casters. Markers and cleaning kit are included.', price: 10}, 
-{name: 'S66A Lightboard System', image: 'https://i.imgur.com/qRHXBRd.jpg', code: 'S66A', description: 'Want to use your own table? No problem! The 66î Learning Glass lightboard will attach to any table without the need to drill through the top. Markers and cleaning kit included. Specs: 60? x 31? x 1.5? (152cm x 79cm x 4cm), 50lbs (23kg)', price: 10}, 
-])
-
-Studio.create([
-{name: 'S33 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/R1tli5z.jpg', code: 'S33', description: '-', price: 15}, 
-{name: 'S66 Standalone Lightboard Studio Package', image: 'https://i.imgur.com/SEWJNMe.jpg', code: 'S66', description: '-', price: 15}, 
-])
-
-Accessory.create([
-{name: 'BlackMagic Mini-Recorder', image: 'https://i.imgur.com/8qqjAAd.jpg', code: 'MINI', description: 'Connects video camera with computer in real time through Thunderbolt and HDMI connections.', price: 20}, 
-{name: 'Decimator', image: 'https://i.imgur.com/u1snHqR.jpg', code: 'DEC', description: 'Features a built-in scaler to flip your image horizontally. Also allows frame rate conversion and HDMI/SDI cross conversion. Includes; Universal Power Supply, HDMI Cable, USB Cable', price: 20}, 
-{name: 'Dracast', image: 'https://i.imgur.com/kNCm2Qv.jpg', code: 'DRA', description: 'Fully dimmable 3200-5600K variable light temperatures.  AC or DC operation  Includes barndoors, carry case and 100-240 VAC Power Adapter.', price: 20}, 
-{name: 'Markers', image: 'https://i.imgur.com/DLZnino.jpg', code: 'MARK', description: 'Our favorite premium neon dry erase markers.  Vivid neon ink consistently delivers bright and bold colors.', price: 20}, 
 ])
 
 Overview.create([
