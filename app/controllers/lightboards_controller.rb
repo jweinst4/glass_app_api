@@ -46,6 +46,6 @@ class LightboardsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def lightboard_params
-      params.require(:lightboard).permit(:name, :image, :code, :description, :price)
+      params.require(:lightboard).permit(:name, :image, :code, :description, :price, :category)
     end
 end

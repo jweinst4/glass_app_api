@@ -46,6 +46,6 @@ class StudiosController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def studio_params
-      params.require(:studio).permit(:name, :image, :code, :description, :price)
+      params.require(:studio).permit(:name, :image, :code, :description, :price, :category)
     end
 end
