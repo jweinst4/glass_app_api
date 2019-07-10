@@ -1,5 +1,5 @@
 class LightboardsController < ApplicationController
-  before_action :set_lightboard, only: [:show, :update, :destroy]
+  before_action :set_lightboard, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /lightboards
   def index

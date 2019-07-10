@@ -1,5 +1,5 @@
 class StudiosController < ApplicationController
-  before_action :set_studio, only: [:show, :update, :destroy]
+  before_action :set_studio, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /studios
   def index
