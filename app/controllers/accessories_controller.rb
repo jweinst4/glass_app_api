@@ -1,5 +1,5 @@
 class AccessoriesController < ApplicationController
-  before_action :set_accessory, only: [:show, :update, :destroy]
+  before_action :set_accessory, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /accessories
   def index
