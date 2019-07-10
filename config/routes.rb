@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :howtos
+  resources :resources
   resources :terms
   resources :privacies
   resources :faqs
