@@ -46,6 +46,6 @@ class FaqsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def accessory_params
-      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
+      params.require(:accessory).permit(:question, :answer)
     end
 end
