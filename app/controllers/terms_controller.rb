@@ -45,7 +45,7 @@ class TermsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def term_params
+      params.require(:term).permit(:item)
     end
 end

@@ -45,7 +45,7 @@ class ManagementsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def management_params
+      params.require(:management).permit(:item)
     end
 end

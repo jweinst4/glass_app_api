@@ -45,7 +45,7 @@ class HowtosController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def howto_params
+      params.require(:howto).permit(:item)
     end
 end

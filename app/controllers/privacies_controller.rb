@@ -45,7 +45,7 @@ class PrivaciesController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def privacy_params
+      params.require(:privacy).permit(:item)
     end
 end

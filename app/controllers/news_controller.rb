@@ -45,7 +45,7 @@ class NewsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def news_params
+      params.require(:news).permit(:item)
     end
 end

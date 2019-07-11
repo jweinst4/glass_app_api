@@ -45,7 +45,7 @@ class OverviewsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def overview_params
+      params.require(:overview).permit(:item)
     end
 end

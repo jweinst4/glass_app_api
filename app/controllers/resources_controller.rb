@@ -45,7 +45,7 @@ class ResourcesController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def accessory_params
-      params.require(:accessory).permit(:item)
+    def resource_params
+      params.require(:resource).permit(:item)
     end
 end
