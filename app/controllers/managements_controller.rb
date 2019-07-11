@@ -1,5 +1,5 @@
 class ManagementsController < ApplicationController
-  before_action :set_management, only: [:show, :update, :destroy]
+  before_action :set_management, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /managements
   def index
@@ -45,7 +45,7 @@ class ManagementsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def management_params
-      params.require(:management).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

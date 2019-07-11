@@ -1,5 +1,5 @@
 class TermsController < ApplicationController
-  before_action :set_term, only: [:show, :update, :destroy]
+  before_action :set_term, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /terms
   def index
@@ -45,7 +45,7 @@ class TermsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def term_params
-      params.require(:term).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

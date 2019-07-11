@@ -1,5 +1,5 @@
 class OverviewsController < ApplicationController
-  before_action :set_overview, only: [:show, :update, :destroy]
+  before_action :set_overview, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /overviews
   def index
@@ -45,7 +45,7 @@ class OverviewsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def overview_params
-      params.require(:overview).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

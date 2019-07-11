@@ -1,5 +1,5 @@
 class FaqsController < ApplicationController
-  before_action :set_faq, only: [:show, :update, :destroy]
+  before_action :set_faq, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /faqs
   def index
@@ -45,7 +45,7 @@ class FaqsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def faq_params
-      params.require(:faq).permit(:question, :answer)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

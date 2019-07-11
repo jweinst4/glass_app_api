@@ -1,5 +1,5 @@
 class HowtosController < ApplicationController
-  before_action :set_howto, only: [:show, :update, :destroy]
+  before_action :set_howto, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /howtos
   def index
@@ -45,7 +45,7 @@ class HowtosController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def howto_params
-      params.require(:howto).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

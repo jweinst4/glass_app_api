@@ -1,5 +1,5 @@
 class PrivaciesController < ApplicationController
-  before_action :set_privacy, only: [:show, :update, :destroy]
+  before_action :set_privacy, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /privacies
   def index
@@ -45,7 +45,7 @@ class PrivaciesController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def privacy_params
-      params.require(:privacy).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

@@ -1,5 +1,5 @@
 class ResourcesController < ApplicationController
-  before_action :set_resource, only: [:show, :update, :destroy]
+  before_action :set_resource, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /resources
   def index
@@ -45,7 +45,7 @@ class ResourcesController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def resource_params
-      params.require(:resource).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end

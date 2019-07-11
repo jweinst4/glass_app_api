@@ -1,5 +1,5 @@
 class NewsController < ApplicationController
-  before_action :set_news, only: [:show, :update, :destroy]
+  before_action :set_news, only: [:show, :update, :destroy, :patch, :put]
 
   # GET /news
   def index
@@ -45,7 +45,7 @@ class NewsController < ApplicationController
     end
 
     # Only allow a trusted parameter "white list" through.
-    def news_params
-      params.require(:news).permit(:item)
+    def accessory_params
+      params.require(:accessory).permit(:name, :image, :code, :description, :price, :category)
     end
 end
