@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_10_024535) do
+ActiveRecord::Schema.define(version: 2019_07_12_024400) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,15 @@ ActiveRecord::Schema.define(version: 2019_07_10_024535) do
     t.string "answer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "answertwo"
+    t.string "answerthree"
+    t.string "answerfour"
+    t.string "answerfive"
+    t.string "answersix"
+    t.string "answerseven"
+    t.string "answereight"
+    t.string "answernine"
+    t.string "answerten"
   end
 
   create_table "howtos", force: :cascade do |t|
