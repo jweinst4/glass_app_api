@@ -82,4 +82,4 @@ production:
   <<: *default
   database: glass_app_api_production
   username: glass_app_api
-  password: <%= ENV['GLASS_APP_API_DATABASE_PASSWORD'] %>
+  password: "database3"
